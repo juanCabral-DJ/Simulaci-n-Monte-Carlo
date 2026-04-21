@@ -1,0 +1,23 @@
+{
+  "mode": "parallel",
+  "workers": 4,
+  "elapsed_seconds": 38.8934855,
+  "final_counts": {
+    "susceptible": 2727,
+    "infected": 2905,
+    "recovered": 869173,
+    "dead": 125195
+  },
+  "config": {
+    "rows": 1000,
+    "cols": 1000,
+    "days": 365,
+    "beta": 0.24,
+    "gamma": 0.07,
+    "mu": 0.01,
+    "initial_infected": 25,
+    "seed": 12345,
+    "capture_every": 15
+  },
+  "days_recorded": 365
+}
